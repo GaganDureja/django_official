@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"al",
+				"album_dict"
+			],
+			[
 				"BA",
 				"BASE_DIR"
 			],
@@ -264,10 +268,6 @@
 				"background-color\tproperty"
 			],
 			[
-				"al",
-				"alpha"
-			],
-			[
 				"vl",
 				"value"
 			],
@@ -340,10 +340,28 @@
 	"buffers":
 	[
 		{
+			"file": "src/products/models.py",
+			"settings":
+			{
+				"buffer_size": 229,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/products/admin.py",
+			"settings":
+			{
+				"buffer_size": 121,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/trydjango/settings.py",
 			"settings":
 			{
-				"buffer_size": 3175,
+				"buffer_size": 3206,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -383,11 +401,20 @@
 	[
 		"/home/gagan/Desktop/python_projects/Django freecodecamp",
 		"/home/gagan/Desktop/python_projects/Django freecodecamp/src",
+		"/home/gagan/Desktop/python_projects/Django freecodecamp/src/products",
+		"/home/gagan/Desktop/python_projects/Django freecodecamp/src/products/migrations",
 		"/home/gagan/Desktop/python_projects/Django freecodecamp/src/trydjango"
 	],
 	"file_history":
 	[
+		"/home/gagan/Desktop/python_projects/Django freecodecamp/src/trydjango/settings.py",
 		"/home/gagan/Desktop/a.py",
+		"/home/gagan/Desktop/daily_algo/reverse dic.py",
+		"/home/gagan/Desktop/daily_algo/count 2d list.py",
+		"/home/gagan/Desktop/daily_algo/top_note.py",
+		"/home/gagan/Desktop/daily_algo/pair count.py",
+		"/home/gagan/Desktop/daily_algo/Lowest Neighbor.py",
+		"/home/gagan/Desktop/python_projects/Django freecodecamp/lib/python3.8/site-packages/django/contrib/gis/gdal/raster/band.py",
 		"/home/gagan/Desktop/daily_algo/same type.py",
 		"/home/gagan/Desktop/daily_algo/string anagram.py",
 		"/home/gagan/Desktop/daily_algo/GCD.py",
@@ -507,14 +534,7 @@
 		"/home/gagan/Desktop/daily_algo/Largest even.py",
 		"/home/gagan/Desktop/daily_algo/sastry numbers.py",
 		"/home/gagan/Desktop/daily_algo/letter occurence.py",
-		"/home/gagan/Desktop/daily_algo/Balancing scale.py",
-		"/home/gagan/Desktop/daily_algo/high & low.py",
-		"/home/gagan/Desktop/daily_algo/quick sort.py",
-		"/home/gagan/Desktop/daily_algo/pangram.py",
-		"/home/gagan/Desktop/daily_algo/insertion sort.py",
-		"/home/gagan/Desktop/daily_algo/Two char.py",
-		"/home/gagan/Desktop/daily_algo/Strong password.py",
-		"/home/gagan/Desktop/daily_algo/adjacent product.py"
+		"/home/gagan/Desktop/daily_algo/Balancing scale.py"
 	],
 	"find":
 	{
@@ -532,6 +552,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Unknown",
 			"2",
 			"count",
 			"0",
@@ -573,24 +594,80 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/trydjango/settings.py",
+					"file": "src/products/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3175,
+						"buffer_size": 229,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3175,
-								3175
+								212,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/products/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								121,
+								121
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/trydjango/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1174,
+								1174
 							]
 						],
 						"settings":
@@ -600,10 +677,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1787.0,
+						"translation.y": 513.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
